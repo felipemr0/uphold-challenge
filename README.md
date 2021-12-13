@@ -19,7 +19,8 @@
   </ul>
 <h3>Running the bot</h3>
   <ul>
-      <li>To run the bot open a command line and navigate to the project directory</li> 
+      <li>To run the bot open a command line and navigate to the project directory "../bot/" </li>
+      <li>Execute <b>npm i</b></li>
       <li>Then execute <b>node app < list of pairs > --deviation=< deviation > --interval=< interval ></b></li>
       <li>Where < list of pairs > is a list of currency pairs, < deviation > is the price oscillation percentage and < interval > is the fetch interval</li>
       <li>Example <b>node app BTC-USD XPT-AAPL --deviation=0.01 --interval=5000</b></li>
